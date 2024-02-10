@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/missing-number/">268. Missing Number</a></h2><h3>Easy</h3><hr><div><p>Given an array <code>nums</code> containing <code>n</code>  distinct numbers in the range <code>[0, n]</code>, return the only number in the range that is missing from the array.</p>
+<h2><a href="https://leetcode.com/problems/missing-number/">268. Missing Number</a></h2><h3>Easy</h3><hr><div><p>Given an array <code>nums</code> containing <code>n</code> distinct numbers in the range <code>[0, n]</code>, return <em>the only number in the range that is missing from the array.</em></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -24,9 +24,14 @@
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
-<p>&nbsp;</p>
 
-<pre>
-<p><strong>Follow up:</strong></p>Could you implement a solution using only <code>O(1)</code>extra space complexity and <code>O(n)</code> runtime complexity?
-</pre>
+<ul>
+	<li><code>n == nums.length</code></li>
+	<li><code>1 &lt;= n &lt;= 10<sup>4</sup></code></li>
+	<li><code>0 &lt;= nums[i] &lt;= n</code></li>
+	<li>All the numbers of <code>nums</code> are <strong>unique</strong>.</li>
+</ul>
+
+<p>&nbsp;</p>
+<p><strong>Follow up:</strong> Could you implement a solution using only <code>O(1)</code> extra space complexity and <code>O(n)</code> runtime complexity?</p>
 </div>
